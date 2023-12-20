@@ -1,0 +1,72 @@
+Logistic regression-:
+
+-> It is a supervised ML algo used to solve classificatio problems.
+-> It predicts outcomes which are categorical in nature.
+-> Logistic regression uses sigmoid/ logistic function to classify a data point.
+-> Logistic/sigmoid function always return probablistic value that lies between 0 to 1
+-> In logistic regression , instead of fitting best fit line , we fit "s" shaped curve, which predicts 
+two maximum values (0 or 1)
+->Curve indicates likelihood of something.
+->Sigmiod function maps any value into a range of 0-1
+->logistic function uses threshold which help to classify a data point.
+->value above threshold will be considered as 1 , value less than threshold will be considered as 0
+-> It is widely used to solve binary classfication problems.
+
+-------------------------------------
+Assumption of Logistic Regression.
+1)Target must be categorical in nature.
+2)NO multi-collinearity
+-------------------------------------------
+Advantages
+-Performs well on linear data.
+-Results are easily interepretable.
+-It works well on large data sets
+-faster training because of sigmoid function.
+- works well on binary datasets
+
+Disadvantages
+- it does not perform well on non-linear data.
+- It does work well on high dimensional data ( Large features)-
+- It makes assumptions on data.
+- It does not work well on multiclassification datasets
+
+-----------------------------------------------------
+
+HyperTuning Parameters
+1) penalty -: it adds penalty term. possible values are - {l1,l2,elasticnet,none}
+2) solver -: liblinear,sag,saga,lbfgs
+3) multi_class -: auto,ovr,mltinomial
+------------------------------------------
+
+ROC -AUC curve ( Receiver operating characteristics Area Under Curve)
+
+-> it is a performance metrics for the classification problem at various threshold settings.
+->It tell how much the model is capable of classifying between classes.
+->Higher the AUC, the better the model is at predicting 0 class as 0 and 1 class as 1.
+-> high value of AUC means model is good and vice versa
+-> It is graph which we plot with TPR vs FPR. where TPR is on Y axis and FPR is on X axis.
+
+-----------------------------------------
+
+Interview Questions:
+
+1) How logistic regression works? (imp)
+2) what is sigmoid function /importance of sigmoid function(imp)
+3) importance of threshold in logistic regression. (imp)
+4) Can logistic regression works with large data?  --> Yes, it requires large data
+5) Explain Drawbacks of logistic regression.
+6) When you will like to use logistic regression (imp)
+7) Explain ROC- AUC curve.
+8) How will you improvise logistic regression performance / what are hypertuners of logistic regression (imp)
+9) Does logsitic regression uses regularization by default? ---> Yes , l2 by default
+10) explain solver in logistic regression(imp)
+11) Advantages and disadvantages of logistic regression 
+12) logistic regression vs linear regression (imp)
+
+
+
+
+
+
+
+
