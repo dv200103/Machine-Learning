@@ -1,0 +1,49 @@
+SVM (Support vector Machine)
+-> supervised ML algo which can be used to solve classification as well as regression problems.
+
+Objective -:
+-SVM is based on the idea of finding a hyperplane/ Decision line in an N-Dimensional space that best seperate the features into different domains.
+
+Hyperplane-:
+
+-Hyperplanes are decision boundaries that classify the data points into classes. Data points falling either side of the hyperplane can be classified to different classes.
+-Dimension of hyperplane is depends on number of features. i.e if no of features are 2, then hyperplane is line. if no of features are 3 or more than 3 then it is known as 2d hyperplane
+
+-----------------------
+support vectors-:
+Support vectores are data points that are closer to the hyperplance and influence the position of the hyperplane.
+
+support vectors plays imp role to draw decision line/hyperplane.
+-------------------------------------
+
+Margin-: The distance of vectoors from the hyperplane are called margins.
+-distance from boundary line to decision line.
+
+Best hyperplane ----> hyperplane with High margin is considered as best hyperplane.
+-------------------------------------------------
+kernel -: Kernel is used to handle non-linear dataset as we can not draw best decision line in non linear data.
+kernel will add extra dimension to handle non-linear data by finding out best hyperplane in higher dimension space.
+
+
+---------------
+
+Advantages of SVM-:
+1) it can handle linear as well non linear data. -: it handle linear data by finding a best decison line and it handles non linear data by using kernel trick.
+
+2) it can be used to solve classification as well as regression problems.
+
+3) stability -: A small change to the data does not affect the hyperplane.
+
+
+Disadvantages
+1) choosing a correct kernel type.
+2) extensive memroy requirement - > High complex algo , high vol. of computation requires.
+3) Long trining time on large non linear data
+4) it requires Feature scaling
+5) difficult to intrpret results of SVM	
+
+
+
+
+
+
