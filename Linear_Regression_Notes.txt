@@ -1,0 +1,43 @@
+Linear Regression alog-:
+
+-Supervised ML algo used to predict cont. target varaible.
+-it uses label data for prediction.
+-It tries to establish relationship between X (indepedent variable) and Y (target) by finding out
+best fit line.
+-Line can be drawn with y=mx+c
+here, y --> target
+m--> slope --> how much y is changing wrt x (it indicate steepness of a line)
+x--> indepedent var.
+c--> intercept. ( a location where it intersects an axis)
+
+what is best fit line ?
+
+-when a line is covering maximum data points from dataset or most of the points are close to a line,
+is known as best fit line. 
+- in best fit line error rate is very low and accuracy is high.
+
+what is error?
+-> gap/ distance between actual data point and predicted data point.
+-> this is also known as residual.
+-> error rate must be low as possible.
+
+how to find best fit line??
+
+Gradient descent helps us to draw best fit line by calculating best values of m and c by taking 
+partial derivative at each step.
+
+
+step1 -: machine will randomly select m and c value
+step2 -: based on this m and c it will draw a line using y=mx+c
+step3-: now it will calculate error rate. and tries to minimize it.
+step4-: it will calculate new values of m and c by taking partial derivative of old m &c 
+step5-: using this new values it draw a line.
+step6 -:cont this process till error rate becomes low.
+ 
+
+
+
+
+
+
+
