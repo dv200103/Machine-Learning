@@ -1,0 +1,10 @@
+Methods to prevent Overfitting:
+
+1. Ridge and Lasso Regularization methods are used to prevent overfitting in regression models.
+
+2. Cross Validation method is also used for regression models.
+
+3. Ensemble methods are ideal for regression and classification,
+where they reduce bias and variance to boost the accuracy of models.
+Bagging: used to Reduce Variance.
+Boosting: used to Reduce Bias
