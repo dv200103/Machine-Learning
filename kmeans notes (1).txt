@@ -1,0 +1,62 @@
+Clustering?
+
+-CLustering is a unsupervised learning process of creating groups of data points  based on similarity.
+-HEre we dont have target column. we look at the data and then try to club similar observation and form different groups.
+
+Application of clustering/ where to apply clustering>?
+
+-customer segmentation.
+-recommendation system.
+
+How to perform clustering?
+- We have two algorithms to perform clustering
+1) K-Means clustering
+2) Hierarchical clustering.
+
+-------------------------------------
+How K-Means works?
+Here K is -: no of groups/clusters to make.
+
+1) Decide the value of K.
+(To decide the value of K we must have Domain knowledge).
+
+2) Select K centroids
+(Centroids can be selected randomly or can be selected from datapoints.)
+
+3) By calculating the Euclidean distance assign the datapoint to the nearest centroids/cluster.Now again find the new centroid for that cluster and keep doing this process for inner iteration times (default value is 300).
+and then calculate inertia.
+
+4) Now again re-generate centroids and go to step no 3. Keep doing this process for Outer iteration times. (default value:- 10)
+
+5) Final centroids/clusters are selected whose inertia value is low.
+
+
+How Good clusters/final clusters are selected?
+(refer whitboard)
+
+How to select number of cluster to make?
+1)You must domain knowledge
+2)Use Elbow technique/ Method ( refer whiteboard.)
+
+
+--------------------------------------
+Interview questions
+-What is clustering?
+-Why to use clustering / Application clustering?
+-What is K in K-means
+-Difference between Kmeans and KNN algo.
+-How Kmeans works?
+-How best clusters are selected
+-what is inertia and importance of it
+-How to select the best value fo K?
+
+
+
+
+
+
+
+
+
+
+
